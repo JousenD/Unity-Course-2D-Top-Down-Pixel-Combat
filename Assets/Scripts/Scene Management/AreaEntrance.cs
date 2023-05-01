@@ -9,6 +9,7 @@ public class AreaEntrance : MonoBehaviour
     private void Start() {
         if (transitionName == SceneManagement.Instance.sceneTransitionName) {
             PlayerController.Instance.transform.position = this.transform.position;
+            CameraContoller.Instance.SetPlayerCameraFollow();
         }
     }
 }
