@@ -1013,7 +1013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5224757, y: 0.8327548, z: -10.013498}
+  m_LocalPosition: {x: -3.7394757, y: 0.9237548, z: -10.013498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1671,7 +1671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783206399}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5224757, y: 0.8327548, z: -10.013498}
+  m_LocalPosition: {x: -3.7394757, y: 0.9237548, z: -10.013498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29445,7 +29445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058784979}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.217, y: 0.091, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29602,7 +29602,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: df7b81515c9e7e940a8f9c35fe26064d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29890,9 +29890,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2044838132054764117, guid: a86aab0003e6a85419ac9bc8cbf5364d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a14b4d27203f4b4cbe982f7b0d874c2, type: 2}
     - target: {fileID: 4369825439027188769, guid: a86aab0003e6a85419ac9bc8cbf5364d, type: 3}
       propertyPath: m_Name
       value: Area Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609302548633656208, guid: a86aab0003e6a85419ac9bc8cbf5364d, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8710026781375638799, guid: a86aab0003e6a85419ac9bc8cbf5364d, type: 3}
       propertyPath: m_RootOrder
