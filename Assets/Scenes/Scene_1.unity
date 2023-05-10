@@ -996,7 +996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 369075138}
   m_Layer: 0
-  m_Name: SlashAnimaiton
+  m_Name: SlashAnimaitonSpawmPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1641,7 +1641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c490257fda6f14eadb8eb75fc31e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActiveWeapon: {fileID: 0}
 --- !u!1 &653972108
 GameObject:
   m_ObjectHideFlags: 0
@@ -30572,6 +30571,7 @@ MonoBehaviour:
   moveSpeed: 4
   dashSpeed: 4
   myTrailRenderer: {fileID: 2090521315}
+  weaponCollider: {fileID: 704355602}
 --- !u!95 &2058784984
 Animator:
   serializedVersion: 5
