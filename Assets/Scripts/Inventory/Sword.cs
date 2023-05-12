@@ -22,7 +22,7 @@ public class Sword : MonoBehaviour, IWeapon
 
     private void Start() {
         weaponCollider = PlayerController.Instance.GetWeaponCollider();
-        slashAnimSpawnPoint = GameObject.Find("SlashAnimaitonSpawmPoint").transform;
+        slashAnimSpawnPoint = GameObject.Find("SlashAnimationSpawnPoint").transform;
     }
  
 
@@ -34,7 +34,6 @@ public class Sword : MonoBehaviour, IWeapon
 
 
     public void Attack() {
-        //isAttacking = true;
         myAnimator.SetTrigger("Attack");
         weaponCollider.gameObject.SetActive(true);
         slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
