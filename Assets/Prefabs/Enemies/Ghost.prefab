@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 9121423961891368964}
   - component: {fileID: 3124987520702180054}
   - component: {fileID: 8527302690137824689}
+  - component: {fileID: 5356746764056731916}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -124,7 +125,7 @@ Transform:
   m_Children:
   - {fileID: 8331613336896621673}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3860395179362552658
 SpriteRenderer:
@@ -253,6 +254,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
+  attackRange: 5
+  enemyType: {fileID: 5356746764056731916}
+  attackCooldown: 2
 --- !u!114 &904623813167069023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,3 +335,16 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &5356746764056731916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135493379074185603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167926f3ffd1cfa4781b56b7a3345908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3619077476091207816, guid: cf4bbec4460774e4887392b3a4de8887, type: 3}
