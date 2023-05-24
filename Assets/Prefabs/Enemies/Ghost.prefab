@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 3124987520702180054}
   - component: {fileID: 8527302690137824689}
   - component: {fileID: 5356746764056731916}
+  - component: {fileID: 2487101887357852493}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -358,3 +359,18 @@ MonoBehaviour:
   restTime: 0.5
   stagger: 1
   oscillate: 1
+--- !u!114 &2487101887357852493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135493379074185603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b679f1f465a7f6c4a84d2149fcd8311e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 7901967494321533694, guid: 449196c367cd081408bd6f4a38239b0e, type: 3}
+  healthGlobe: {fileID: 7901967494321533694, guid: db988df5a088b654789d1feb7e8fe274, type: 3}
+  staminaGlobe: {fileID: 7901967494321533694, guid: ffe0d7cb7f0df9c40bef98ab6d166614, type: 3}
