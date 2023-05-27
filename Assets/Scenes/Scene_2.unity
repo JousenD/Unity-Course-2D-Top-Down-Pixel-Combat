@@ -4696,6 +4696,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1037153021222934422, guid: 1d2d1d88ffcb7c645bc58fe8270d2acb, type: 3}
+      propertyPath: fullStaminaImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f0eaf570ddcfb1c418fdd7274d44cd2f, type: 3}
+    - target: {fileID: 1037153021222934422, guid: 1d2d1d88ffcb7c645bc58fe8270d2acb, type: 3}
+      propertyPath: emptyStaminaImage
+      value: 
+      objectReference: {fileID: 21300000, guid: de328b80f7a90534aac9ab34a69baa64, type: 3}
     - target: {fileID: 3098986458897493927, guid: 1d2d1d88ffcb7c645bc58fe8270d2acb, type: 3}
       propertyPath: m_Name
       value: Player
@@ -28260,6 +28268,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 129937462051204867, guid: 3dcede3bd1353b64e88e3157a53aee6e, type: 3}
+      propertyPath: m_Name
+      value: Stamina Globe Image
+      objectReference: {fileID: 0}
     - target: {fileID: 1879225124507969856, guid: 3dcede3bd1353b64e88e3157a53aee6e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -28468,6 +28480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5598441965353053056, guid: 3dcede3bd1353b64e88e3157a53aee6e, type: 3}
+      propertyPath: m_Name
+      value: Stamina Globe Image
+      objectReference: {fileID: 0}
     - target: {fileID: 6616776378477010497, guid: 3dcede3bd1353b64e88e3157a53aee6e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -28523,6 +28539,10 @@ PrefabInstance:
     - target: {fileID: 7052354552155669530, guid: 3dcede3bd1353b64e88e3157a53aee6e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087807785251646248, guid: 3dcede3bd1353b64e88e3157a53aee6e, type: 3}
+      propertyPath: m_Name
+      value: Stamina Globe Image
       objectReference: {fileID: 0}
     - target: {fileID: 9103188290783062106, guid: 3dcede3bd1353b64e88e3157a53aee6e, type: 3}
       propertyPath: m_AnchorMax.y
